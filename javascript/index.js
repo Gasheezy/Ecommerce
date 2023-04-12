@@ -1,3 +1,62 @@
+//------Fizz Buzz Exercise with ternary operators----
+let number = 15;
+
+console.log(
+    number % 3 === 0 && number % 5 === 0
+    ? 'FizzBuzz'
+    : number % 3 === 0
+    ? 'Fizz'
+    : number % 5 === 0
+    ? 'Buzz'
+    :'Nothing'
+    );
+
+
+
+/*
+//------Fizz Buzz Exercise----
+//Take a number
+//It divisible by 3, print Fizz
+//If divisible by 5, print Buzz,
+//If divisible by both 3 and 5, print FizzBuzz
+//Otherwise, print nothing
+
+let number = 12;
+
+if (number % 3 === 0 && number % 5 === 0){
+    console.log('FizzBuzz');
+} else if(number % 5 === 0){
+    console.log('Buzz');
+} else if(number % 3 === 0){
+    console.log('Fizz');
+}else{
+    console.log('Nothing');
+}
+
+//------Ternary Operator------
+let num1 = 10;
+let num2 = 5;
+
+let max = num1 < num2 ? num1 : num2; //if else statement
+console.log(max);
+
+//------Swap 2 Numbers----
+let apple = 10;
+let orange  = 30;
+
+let temp = apple;
+apple = orange;
+orange = temp;
+
+console.log(apple,orange);
+
+//----------Operators--------
+let price = 200;
+
+console.log(price === 200);
+console.log(price >= 300);
+console.log(!(price>50));
+
 //------Exercise----
 let person = {
     name : 'Mungai',
