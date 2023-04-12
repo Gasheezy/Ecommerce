@@ -1,3 +1,25 @@
+//------Grading System with ternary operators----
+let grade = 56;
+
+console.log(
+    grade <=100 && grade >=80
+    ? 'A+'
+    : grade <=79 && grade >=70
+    ? 'A'
+    : grade <=69 && grade >=60
+    ? 'A-'
+    : grade <=59 && grade >=50
+    ? 'B'
+    : grade <=49 && grade >=40
+    ? 'C'
+    : grade <=39 && grade >=33
+    ? 'D'
+    : grade <=32 && grade >=0
+    ? 'F'
+    :'Invalid'
+    );
+
+/*
 //------Fizz Buzz Exercise with ternary operators----
 let number = 15;
 
@@ -12,8 +34,6 @@ console.log(
     );
 
 
-
-/*
 //------Fizz Buzz Exercise----
 //Take a number
 //It divisible by 3, print Fizz
