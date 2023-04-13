@@ -1,5 +1,5 @@
 //------Grading System with ternary operators----
-let grade = 56;
+let grade = 52;
 
 console.log(
     grade <=100 && grade >=80
