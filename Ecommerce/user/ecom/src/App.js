@@ -1,11 +1,16 @@
-import React from 'react'
-import { Button } from 'react-bootstrap';
+import React, { Fragment } from 'react'
+import { BrowserRouter } from 'react-router-dom';
+import AppRoute from './route/AppRoute';
 
-export default function App() {
-  return (
-    <div>
-              <Button variant="warning">Warning</Button>{' '}
-        <Button variant="info">Warning</Button>{' '}
-    </div>
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <BrowserRouter>
+        <AppRoute />         
+        </BrowserRouter>
+
+      </Fragment>
   )
+}
 }
