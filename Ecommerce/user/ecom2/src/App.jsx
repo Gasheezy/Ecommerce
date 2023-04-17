@@ -2,8 +2,8 @@ import React, { Fragment } from 'react'
 import { BrowserRouter } from 'react-router-dom';
 import AppRoute from './route/AppRoute';
 
-class App extends Component {
-  render() {
+const App =  () => {
+
     return (
       <>
         <BrowserRouter>
@@ -11,8 +11,8 @@ class App extends Component {
         </BrowserRouter>
 
       </>
-  )
-}
+    )
+  
 }
 
 export default App
